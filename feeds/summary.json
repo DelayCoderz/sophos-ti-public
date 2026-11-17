@@ -1,0 +1,64 @@
+{
+  "generated_at_utc": "2026-11-17T08:47:10+00:00",
+  "mode": "enforce",
+  "sources": {
+    "abuseipdb": 100611,
+    "cinsscorecom": 15000
+  },
+  "invalid_entries": {
+    "abuseipdb": 0,
+    "cinsscorecom": 0
+  },
+  "total_unique_ipv4": 105719,
+  "intersection": 9892,
+  "block_candidates": 9892,
+  "published_block": 9892,
+  "published_monitor": 95827,
+  "excluded_by_manual_approval": 0,
+  "added_to_block_vs_previous": 0,
+  "removed_from_block_vs_previous": 0,
+  "ai_reviewed": 0,
+  "ai_review_error": false,
+  "ai_automation_enabled": true,
+  "incremental_enabled": true,
+  "incremental": {
+    "bootstrap_baseline": false,
+    "review_budget_day": "2026-11-17",
+    "review_budget_used_before": 99,
+    "new_ips": 0,
+    "changed_feed_membership": 0,
+    "new_c2": 0,
+    "expired_cache": 0,
+    "pending_before_review": 0,
+    "selected_today": 0,
+    "deferred_after_review": 0
+  },
+  "ai_cached_decisions_reapplied": 0,
+  "ai_auto_promoted_to_block": 0,
+  "ai_auto_downgraded_to_monitor": 0,
+  "independent_active_c2_matches": 0,
+  "sophos_aggregated_hit_ips": 0,
+  "asn_enrichment": {
+    "targets": 50,
+    "fixture": 0,
+    "cache": 50,
+    "live": 0,
+    "failed": 0,
+    "not_enriched": 0
+  },
+  "shared_infrastructure_review_targets": 9,
+  "embedded_asn_annotations": 93918,
+  "embedded_provider_tiers": {
+    "cloud_hosting": 22319,
+    "mixed_services": 5184,
+    "shared_cdn": 1126
+  },
+  "overlap_provider_tiers": {
+    "cloud_hosting": 3584,
+    "mixed_services": 1679,
+    "shared_cdn": 8
+  },
+  "verified_shared_cdn_candidates": 9,
+  "shared_infrastructure_downgraded_to_monitor": 0,
+  "safety_note": "AI changes require independent evidence and bounded policy; no ASN-wide allowlisting"
+}
